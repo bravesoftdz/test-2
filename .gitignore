@@ -1,0 +1,16 @@
+*.dcu
+*.~*
+*.dproj.local
+*.identcache
+__history
+__recovery
+*.drc
+*.map
+*.zip
+*.exe
+*.dll
+*.elf
+Android
+iOSDevice64
+Win32
+Win64
