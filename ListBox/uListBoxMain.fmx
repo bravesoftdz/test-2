@@ -2,33 +2,15 @@ object frmListBoxMain: TfrmListBoxMain
   Left = 0
   Top = 0
   Caption = 'Form18'
-  ClientHeight = 550
-  ClientWidth = 640
+  ClientHeight = 606
+  ClientWidth = 594
+  Position = ScreenCenter
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
   OnCreate = FormCreate
   OnClose = FormClose
   DesignerMasterStyle = 0
-  object ListBox1: TListBox
-    Align = Left
-    Position.Y = 137.000000000000000000
-    Size.Width = 285.000000000000000000
-    Size.Height = 413.000000000000000000
-    Size.PlatformDefault = False
-    TabOrder = 0
-    DisableFocusEffect = True
-    DefaultItemStyles.ItemStyle = ''
-    DefaultItemStyles.GroupHeaderStyle = ''
-    DefaultItemStyles.GroupFooterStyle = ''
-    Viewport.Width = 281.000000000000000000
-    Viewport.Height = 409.000000000000000000
-    object ListBoxItem1: TListBoxItem
-      OnTap = ListBoxItem1Tap
-      TabOrder = 0
-      Text = 'ListBoxItem1'
-    end
-  end
   object Memo1: TMemo
     Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
     DataDetectorTypes = []
@@ -42,32 +24,12 @@ object frmListBoxMain: TfrmListBoxMain
       '6. Image View Event '#50640#49436#47564' Loading '#54616#46020#47197)
     ReadOnly = True
     Align = Top
-    Size.Width = 640.000000000000000000
+    Size.Width = 594.000000000000000000
     Size.Height = 137.000000000000000000
     Size.PlatformDefault = False
-    TabOrder = 2
-    Viewport.Width = 636.000000000000000000
+    TabOrder = 1
+    Viewport.Width = 590.000000000000000000
     Viewport.Height = 133.000000000000000000
-  end
-  object btnAddListBoxItem: TButton
-    Position.X = 302.000000000000000000
-    Position.Y = 204.000000000000000000
-    Size.Width = 133.000000000000000000
-    Size.Height = 22.000000000000000000
-    Size.PlatformDefault = False
-    TabOrder = 3
-    Text = 'Add List Box 300'
-    OnClick = btnAddListBoxItemClick
-  end
-  object btnClearListboxItems: TButton
-    Position.X = 302.000000000000000000
-    Position.Y = 162.000000000000000000
-    Size.Width = 131.000000000000000000
-    Size.Height = 22.000000000000000000
-    Size.PlatformDefault = False
-    TabOrder = 4
-    Text = 'Clear Listbox Items'
-    OnClick = btnClearListboxItemsClick
   end
   object Image1: TImage
     MultiResBitmap.Height = 125
@@ -941,11 +903,108 @@ object frmListBoxMain: TfrmListBoxMain
           000049454E44AE426082}
         FileName = 'C:\Users\CTO\Desktop\Image\PER0CIC7FpiaI2Lz81WTDaNgj9VsReI0.jpg'
       end>
-    Position.X = 362.000000000000000000
-    Position.Y = 244.000000000000000000
+    Position.X = 396.000000000000000000
+    Position.Y = 14.000000000000000000
     Size.Width = 119.000000000000000000
     Size.Height = 103.000000000000000000
     Size.PlatformDefault = False
+  end
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 594.000000000000000000
+    Size.Height = 469.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 1
+    TabOrder = 4
+    TabPosition = PlatformDefault
+    Sizes = (
+      594s
+      443s
+      594s
+      443s)
+    object TabItem4: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 69.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem4'
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object btnAddItems: TButton
+        Position.X = 264.000000000000000000
+        Position.Y = 52.000000000000000000
+        Size.Width = 130.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'add items'
+        OnClick = btnAddItemsClick
+      end
+      object Button1: TButton
+        Position.X = 262.000000000000000000
+        Position.Y = 178.000000000000000000
+        Size.Width = 130.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = 'Button1'
+        OnClick = Button1Click
+      end
+      object ListBox1: TListBox
+        Position.X = 408.000000000000000000
+        Position.Y = 82.000000000000000000
+        TabOrder = 2
+        DisableFocusEffect = True
+        DefaultItemStyles.ItemStyle = ''
+        DefaultItemStyles.GroupHeaderStyle = ''
+        DefaultItemStyles.GroupFooterStyle = ''
+        Viewport.Width = 196.000000000000000000
+        Viewport.Height = 196.000000000000000000
+        object ListBoxItem1: TListBoxItem
+          StyleLookup = 'listboxitemnodetail'
+          TabOrder = 0
+          Text = 'ListBoxItem1'
+        end
+      end
+    end
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 69.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem1'
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object btnUpload: TButton
+        Position.X = 46.000000000000000000
+        Position.Y = 94.000000000000000000
+        TabOrder = 0
+        Text = 'btnUpload'
+        OnClick = btnUploadClick
+      end
+      object btnDownload: TButton
+        Position.X = 38.000000000000000000
+        Position.Y = 166.000000000000000000
+        TabOrder = 1
+        Text = 'btnDownload'
+      end
+      object Edit1: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 2
+        Position.X = 44.000000000000000000
+        Position.Y = 40.000000000000000000
+      end
+    end
   end
   object PrototypeBindSource1: TPrototypeBindSource
     AutoActivate = True
@@ -963,13 +1022,36 @@ object frmListBoxMain: TfrmListBoxMain
         ReadOnly = False
       end>
     ScopeMappings = <>
-    Left = 364
-    Top = 390
+    Left = 386
+    Top = 500
   end
   object BindingsList1: TBindingsList
     Methods = <>
     OutputConverters = <>
-    Left = 462
-    Top = 393
+    Left = 484
+    Top = 503
+  end
+  object GestureManager1: TGestureManager
+    Sensitivity = 80.000000000000000000
+    Left = 430
+    Top = 443
+  end
+  object ActionList1: TActionList
+    Left = 490
+    Top = 425
+    object Action1: TAction
+      Text = 'Action1'
+      OnExecute = Action1Execute
+    end
+  end
+  object AmazonConnectionInfo1: TAmazonConnectionInfo
+    AccountName = 'AKIAJQKL37CNNLAVNJDQ'
+    AccountKey = 'iQzMgHzO1GtR38dTZP0+Dv7a8ZgZcbpvRF9W0patDtk='
+    Protocol = 'https'
+    TableEndpoint = 'sdb.amazonaws.com'
+    QueueEndpoint = 'queue.amazonaws.com'
+    StorageEndpoint = 's3.amazonaws.com'
+    Left = 236
+    Top = 225
   end
 end

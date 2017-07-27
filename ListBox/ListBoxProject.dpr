@@ -4,7 +4,8 @@ uses
   System.StartUpCopy,
   FMX.Forms,
   uListBoxMain in 'uListBoxMain.pas' {frmListBoxMain},
-  uThread in 'uThread.pas';
+  uThread in 'uThread.pas',
+  uListbox in 'uListbox.pas';
 
 {$R *.res}
 

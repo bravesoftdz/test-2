@@ -1,0 +1,45 @@
+object FormS3StoreStringCpp: TFormS3StoreStringCpp
+  Left = 0
+  Top = 0
+  Caption = 'Amazon S3 - Store String - Delphi'
+  ClientHeight = 266
+  ClientWidth = 401
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 0
+    Text = 'Hello from C++Builder AWS S3 app!'
+    Position.X = 24.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 265.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object btnUpload: TButton
+    Position.X = 24.000000000000000000
+    Position.Y = 64.000000000000000000
+    TabOrder = 2
+    Text = 'Upload'
+    OnClick = btnUploadClick
+  end
+  object btnDownload: TButton
+    Position.X = 128.000000000000000000
+    Position.Y = 64.000000000000000000
+    TabOrder = 1
+    Text = 'Download'
+    OnClick = btnDownloadClick
+  end
+  object AmazonConnectionInfo1: TAmazonConnectionInfo
+    AccountName = 'AKIAI6UXSNWTO3MNMA4Q'
+    AccountKey = 'nrS84hXKRn2ulhQtfF0HiA8p7EtsFmkvfpeMNRUE'
+    Protocol = 'https'
+    TableEndpoint = 'sdb.amazonaws.com'
+    QueueEndpoint = 'queue.amazonaws.com'
+    StorageEndpoint = 's3.amazonaws.com'
+    Left = 96
+    Top = 136
+  end
+end

@@ -1,0 +1,43 @@
+object Form19: TForm19
+  Left = 0
+  Top = 0
+  Caption = 'Form19'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Text = 'Hello from RAD Studio Amazon Cloud'
+    Position.X = 40.000000000000000000
+    Position.Y = 20.000000000000000000
+    Size.Width = 255.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object btnUpload: TButton
+    Position.X = 40.000000000000000000
+    Position.Y = 52.000000000000000000
+    TabOrder = 3
+    Text = 'Upload'
+    OnClick = btnUploadClick
+  end
+  object btnDownload: TButton
+    Position.X = 134.000000000000000000
+    Position.Y = 52.000000000000000000
+    TabOrder = 2
+    Text = 'Download'
+  end
+  object AmazonConnectionInfo1: TAmazonConnectionInfo
+    AccountName = 'AKIAJQKL37CNNLAVNJDQ'
+    AccountKey = 'iQzMgHzO1GtR38dTZP0+Dv7a8ZgZcbpvRF9W0patDtk='
+    TableEndpoint = 'sdb.amazonaws.com'
+    QueueEndpoint = 'queue.amazonaws.com'
+    StorageEndpoint = 's3.amazonaws.com'
+    Left = 488
+    Top = 52
+  end
+end

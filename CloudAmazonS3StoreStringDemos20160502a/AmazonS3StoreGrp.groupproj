@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{598A7147-07F6-49D0-A243-0DBFB2B424CF}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="AmazonS3StoreStringDelphi\AmazonS3StoreString_Delphi.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="AmazonS3StoreStringCpp\AmazonS3StoreString_Cpp.cbproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="AmazonS3StoreString_Delphi">
+        <MSBuild Projects="AmazonS3StoreStringDelphi\AmazonS3StoreString_Delphi.dproj"/>
+    </Target>
+    <Target Name="AmazonS3StoreString_Delphi:Clean">
+        <MSBuild Projects="AmazonS3StoreStringDelphi\AmazonS3StoreString_Delphi.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AmazonS3StoreString_Delphi:Make">
+        <MSBuild Projects="AmazonS3StoreStringDelphi\AmazonS3StoreString_Delphi.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AmazonS3StoreString_Cpp">
+        <MSBuild Projects="AmazonS3StoreStringCpp\AmazonS3StoreString_Cpp.cbproj"/>
+    </Target>
+    <Target Name="AmazonS3StoreString_Cpp:Clean">
+        <MSBuild Projects="AmazonS3StoreStringCpp\AmazonS3StoreString_Cpp.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AmazonS3StoreString_Cpp:Make">
+        <MSBuild Projects="AmazonS3StoreStringCpp\AmazonS3StoreString_Cpp.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="AmazonS3StoreString_Delphi;AmazonS3StoreString_Cpp"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="AmazonS3StoreString_Delphi:Clean;AmazonS3StoreString_Cpp:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="AmazonS3StoreString_Delphi:Make;AmazonS3StoreString_Cpp:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
