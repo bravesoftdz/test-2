@@ -1,0 +1,247 @@
+object Form19: TForm19
+  Left = 0
+  Top = 0
+  Caption = 'Form19'
+  ClientHeight = 636
+  ClientWidth = 826
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 826.000000000000000000
+    Size.Height = 636.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 3
+    TabOrder = 2
+    TabPosition = PlatformDefault
+    Sizes = (
+      826s
+      610s
+      826s
+      610s
+      826s
+      610s
+      826s
+      610s)
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 91.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Making Table'
+      ExplicitSize.cx = 91.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object Grid1: TGrid
+        CanFocus = True
+        ClipChildren = True
+        Position.X = 20.000000000000000000
+        Position.Y = 20.000000000000000000
+        Size.Width = 489.000000000000000000
+        Size.Height = 355.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        RowCount = 10
+        Viewport.Width = 485.000000000000000000
+        Viewport.Height = 330.000000000000000000
+      end
+      object btnAdd100Rows: TButton
+        Position.X = 524.000000000000000000
+        Position.Y = 44.000000000000000000
+        Size.Width = 183.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = 'Add 100 Rows'
+        OnClick = btnAdd100RowsClick
+      end
+      object Button2: TButton
+        Position.X = 526.000000000000000000
+        Position.Y = 80.000000000000000000
+        TabOrder = 2
+        Text = 'Load Data'
+        OnClick = Button2Click
+      end
+    end
+    object TabItem2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 138.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'WEB API Test - Nodejs'
+      ExplicitSize.cx = 89.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object Grid2: TGrid
+        CanFocus = True
+        ClipChildren = True
+        Position.X = 26.000000000000000000
+        Position.Y = 56.000000000000000000
+        Size.Width = 425.000000000000000000
+        Size.Height = 421.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        RowCount = 0
+        Viewport.Width = 421.000000000000000000
+        Viewport.Height = 396.000000000000000000
+      end
+      object btnDataLoadfromNodejs: TButton
+        Position.X = 542.000000000000000000
+        Position.Y = 66.000000000000000000
+        Size.Width = 197.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = 'Data Load from nodejs'
+        OnClick = btnDataLoadfromNodejsClick
+      end
+      object Button1: TButton
+        Position.X = 552.000000000000000000
+        Position.Y = 108.000000000000000000
+        TabOrder = 2
+        Text = 'Button1'
+      end
+    end
+    object TabItem3: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 183.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'WEB API Test -  Datasnap REST'
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+    end
+    object TabItem4: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 70.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Datasnap'
+      ExplicitSize.cx = 70.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object btnLoadFromDatasnap: TButton
+        Position.X = 544.000000000000000000
+        Position.Y = 68.000000000000000000
+        Size.Width = 197.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = 'Data Load from Datasnap'
+        OnClick = btnLoadFromDatasnapClick
+      end
+      object Grid3: TGrid
+        CanFocus = True
+        ClipChildren = True
+        Position.X = 56.000000000000000000
+        Position.Y = 62.000000000000000000
+        Size.Width = 465.000000000000000000
+        Size.Height = 387.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        Viewport.Width = 461.000000000000000000
+        Viewport.Height = 362.000000000000000000
+      end
+      object edtSkip: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 4
+        Position.X = 556.000000000000000000
+        Position.Y = 32.000000000000000000
+      end
+      object edtCount: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 3
+        Position.X = 662.000000000000000000
+        Position.Y = 30.000000000000000000
+      end
+      object Label1: TLabel
+        AutoSize = True
+        Position.X = 546.000000000000000000
+        Position.Y = 100.000000000000000000
+        Size.Width = 217.000000000000000000
+        Size.Height = 16.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Label1'
+      end
+    end
+  end
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'DriverID=MySQL'
+      'Database=cookplay'
+      'Server=db2.cookplay.net'
+      'User_Name=root'
+      'Password=cookpassword')
+    Connected = True
+    LoginPrompt = False
+    Left = 28
+    Top = 42
+  end
+  object DataSource1: TDataSource
+    DataSet = FDQuery1
+    Left = 30
+    Top = 176
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 32
+    Top = 281
+    object LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      GridControl = Grid1
+      Columns = <>
+    end
+    object LinkGridToDataSourceBindSourceDB2: TLinkGridToDataSource
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB2
+      GridControl = Grid3
+      Columns = <>
+    end
+  end
+  object FDQuery1: TFDQuery
+    Active = True
+    Connection = FDConnection1
+    SQL.Strings = (
+      'select * from Tests limit 10')
+    Left = 23
+    Top = 110
+  end
+  object DataSource2: TDataSource
+    DataSet = dmDatasnap.DSTests
+    Left = 272
+    Top = 52
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = FDQuery1
+    ScopeMappings = <>
+    Left = 114
+    Top = 44
+  end
+  object BindSourceDB2: TBindSourceDB
+    DataSet = dmDatasnap.DSTests
+    ScopeMappings = <>
+    Left = 400
+    Top = 304
+  end
+end

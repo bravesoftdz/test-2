@@ -1,0 +1,46 @@
+object frmBackground: TfrmBackground
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnClose = FormClose
+  OnShow = FormShow
+  DesignerMasterStyle = 3
+  object recBackground: TRectangle
+    Align = Client
+    Fill.Color = claBlack
+    Opacity = 0.699999988079071100
+    Size.Width = 640.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+  object Panel1: TPanel
+    Align = Center
+    Size.Width = 285.000000000000000000
+    Size.Height = 51.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object lblCaption: TLabel
+      Align = Right
+      AutoSize = True
+      Position.X = 43.000000000000000000
+      Size.Width = 242.000000000000000000
+      Size.Height = 51.000000000000000000
+      Size.PlatformDefault = False
+      Text = #45936#51060#53552#47484' '#44032#51256#50724#44256' '#51080#49845#45768#45796
+    end
+    object AniIndicator1: TAniIndicator
+      HitTest = False
+      Position.X = 16.000000000000000000
+      Position.Y = 14.000000000000000000
+      Size.Width = 23.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+end

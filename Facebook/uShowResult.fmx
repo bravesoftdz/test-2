@@ -1,0 +1,40 @@
+object frmShowResult: TfrmShowResult
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.X = 10.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 315.000000000000000000
+    Size.Height = 371.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Viewport.Width = 307.000000000000000000
+    Viewport.Height = 363.000000000000000000
+  end
+  object Layout1: TLayout
+    Align = Top
+    Size.Width = 640.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Button1: TButton
+      Position.X = 10.000000000000000000
+      Position.Y = 2.000000000000000000
+      Size.Width = 81.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Back'
+      OnClick = Button1Click
+    end
+  end
+end

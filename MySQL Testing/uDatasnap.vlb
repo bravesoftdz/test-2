@@ -1,0 +1,9 @@
+﻿[DSTests]
+Coordinates=10,10,84,141
+
+[DSProviderConnection1]
+Coordinates=74,1,132,33
+
+[SQLCon_DS]
+Coordinates=225,1,75,33
+

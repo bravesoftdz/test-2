@@ -1,0 +1,55 @@
+object frmSistema: TfrmSistema
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Button1: TButton
+    Position.X = 54.000000000000000000
+    Position.Y = 32.000000000000000000
+    Size.Width = 331.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Text = 'Button1'
+    OnClick = Button1Click
+  end
+  object RESTRequest: TRESTRequest
+    Client = RESTClient
+    Params = <>
+    Response = RESTResponse
+    OnAfterExecute = RESTRequestAfterExecute
+    SynchronizedEvents = False
+    OnHTTPProtocolError = RESTRequestHTTPProtocolError
+    Left = 98
+    Top = 96
+  end
+  object RESTClient: TRESTClient
+    Authenticator = OAuth2_Facebook
+    Params = <>
+    HandleRedirects = True
+    Left = 188
+    Top = 100
+  end
+  object RESTResponse: TRESTResponse
+    Left = 278
+    Top = 102
+  end
+  object RESTResponseDataSetAdapter: TRESTResponseDataSetAdapter
+    FieldDefs = <>
+    Left = 184
+    Top = 178
+  end
+  object OAuth2_Facebook: TOAuth2Authenticator
+    AuthorizationEndpoint = 'https://www.facebook.com/dialog/oauth'
+    RedirectionEndpoint = 'https://www.facebook.com/connect/login_success.html'
+    ResponseType = rtTOKEN
+    Scope = 'user_about_me,user_birthday'
+    Left = 182
+    Top = 254
+  end
+end

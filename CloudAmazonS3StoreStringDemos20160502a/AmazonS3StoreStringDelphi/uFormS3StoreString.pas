@@ -13,7 +13,11 @@ uses
   FMX.Surfaces, FMX.Consts, IdBaseComponent, IdComponent, IdTCPConnection,
   IdTCPClient, IdHTTP, System.Net.URLClient, System.Net.HttpClient,
   System.Net.HttpClientComponent, IdIOHandler, IdIOHandlerSocket,
-  IdIOHandlerStack, IdSSL, IdSSLOpenSSL;
+  IdIOHandlerStack, IdSSL, IdSSLOpenSSL, FireDAC.Stan.Intf, FireDAC.Stan.Option,
+  FireDAC.Stan.Error, FireDAC.UI.Intf, FireDAC.Phys.Intf, FireDAC.Stan.Def,
+  FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys, FireDAC.Phys.MySQL,
+  FireDAC.Phys.MySQLDef, FireDAC.FMXUI.Wait, Data.DB, FireDAC.Comp.Client,
+  Data.DBXMySQL, Data.SqlExpr;
 
 type
   TFormS3StoreString = class(TForm)
@@ -29,6 +33,8 @@ type
     NetHTTPClient1: TNetHTTPClient;
     btnDeleteObject: TButton;
     NetHTTPClient2: TNetHTTPClient;
+    FDConnection1: TFDConnection;
+    SQLConnection1: TSQLConnection;
     procedure btnUploadClick(Sender: TObject);
     procedure btnDownloadClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);

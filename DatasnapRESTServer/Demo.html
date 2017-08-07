@@ -1,0 +1,27 @@
+<!-- !DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" -->
+<html>
+<head>
+<title>Demo</title>
+<script type="text/javascript" src="js/base64.js"></script>
+<script type="text/javascript" src="js/json2.js"></script>
+<script type="text/javascript" src="js/serverfunctionexecutor.js"></script>
+<script type="text/javascript" src="js/connection.js"></script>
+<script type="text/javascript" src="js/ServerFunctinos.js"></script>
+<script type="text/javascript">
+
+function foo()
+{
+    var inst = new TServerMethods1();
+    var result = inst.Add(3, 4).result;
+    document.getElementById('resultarea').value = result;
+}
+
+</script>
+</head>
+<body onload="onLoad()">
+    <form onsubmit="foo(); return false;">
+        <textarea id="resultarea" cols="36" rows="5"></textarea><br /><br />
+        <input type="submit" value="EXECUTE"/>
+    </form>
+</body>
+</html>
