@@ -1,27 +1,27 @@
 ﻿[Closed Files]
-File_0=TSourceModule,'D:\GitHub\test\Splash\uSplashMain.pas',0,1,1,1,1,0,0,,
-File_1=TSourceModule,'D:\00.dev\01.DAEPUNG-E\App7.0_15Level_KoreaOffer\MUnit.pas',0,1,2123,1,2126,0,0,{{742,0}
-File_2=TSourceModule,'D:\00.dev\01.DAEPUNG-E\App7.0_15Level_KoreaOffer\uSplash.pas',0,1,1,1,1,0,0,,
-File_3=TSourceModule,'c:\program files (x86)\embarcadero\studio\18.0\source\fmx\FMX.ListBox.pas',0,1,3779,1,3805,0,0,,
-File_4=TSourceModule,'D:\00.dev\App7.0_15Level_KoreaOffer\ListTouchMng.pas',0,1,1,1,1,0,0,,
-File_5=TSourceModule,'D:\00.dev\App7.0_15Level\DModule.pas',0,1,2764,28,2778,0,0,,{1
-File_6=TSourceModule,'D:\00.dev\App7.0_15Level\FrLevelEdit.pas',0,1,349,32,374,0,0,,
-File_7=TSourceModule,'D:\00.dev\App7.0_15Level\MUnit.pas',0,1,682,8,708,0,0,,{1
-File_8=TSourceModule,'D:\00.dev\App7.0_15Level\uScale.pas',0,1,698,1,729,0,0,,{1
-File_9=TSourceModule,'c:\program files (x86)\embarcadero\studio\18.0\source\rtl\common\System.Classes.pas',0,1,16111,1,16132,0,0,,
-File_10=TSourceModule,'c:\program files (x86)\embarcadero\studio\18.0\source\fmx\FMX.StdCtrls.pas',0,1,499,1,520,0,0,,
-File_11=TSourceModule,'c:\program files (x86)\embarcadero\studio\18.0\source\fmx\FMX.TabControl.pas',0,1,670,1,696,0,0,,
-File_12=TSourceModule,'D:\00.dev\App6.0_del_camera\MUnit.pas',0,1,1,1,1,0,0,{{582,0}
-File_13=TSourceModule,'D:\00.dev\App6.0_del_camera\DModule.pas',0,1,1967,51,1987,0,0,{{2048,0}
-File_14=TSourceModule,'D:\00.dev\App6.0_del_camera\PlatformAPI.pas',0,1,8,22,18,0,0,,
+File_0=TSourceModule,'c:\program files (x86)\embarcadero\studio\18.0\source\rtl\net\System.Bluetooth.pas',0,1,3070,1,3091,0,0,,
+File_1=TSourceModule,'D:\GitHub\CProject\02.CookPlay\uMain.pas',0,1,40,45,68,0,0,,
+File_2=TSourceModule,'D:\GitHub\CProject\02.CookPlay\uGlobal.pas',0,1,21,71,53,0,0,,
+File_3=TSourceModule,'D:\GitHub\CProject\00.Library\uCPScale.pas',0,1,205,3,478,0,0,,
+File_4=TSourceModule,'D:\GitHub\CProject\02.CookPlay\uIntro.pas',0,1,28,39,37,0,0,,
+File_5=TSourceModule,'D:\GitHub\CProject\02.CookPlay\uFacebook.pas',0,1,1,46,98,0,0,,
+File_6=TSourceModule,'D:\00.dev\03.Recipe\test\uMain.pas',0,1,131,62,169,0,0,,
+File_7=TSourceModule,'c:\program files (x86)\embarcadero\studio\18.0\source\fmx\FMX.WebBrowser.pas',0,1,28,4,36,0,0,,
+File_8=TSourceModule,'c:\program files (x86)\embarcadero\studio\18.0\SOURCE\RTL\SYS\System.pas',0,1,949,1,961,0,0,,
+File_9=TSourceModule,'c:\program files (x86)\embarcadero\studio\18.0\source\fmx\FMX.Controls.pas',0,1,204,1,230,0,0,{{6849,0}
+File_10=TSourceModule,'c:\program files (x86)\embarcadero\studio\18.0\source\fmx\FMX.WebBrowser.Win.pas',0,1,424,1,443,0,0,,
+File_11=TSourceModule,'c:\program files (x86)\embarcadero\studio\18.0\SOURCE\RTL\SYS\System.Variants.pas',0,1,880,1,905,0,0,,
+File_12=TSourceModule,'D:\Documents\Embarcadero\Studio\Projects\uRecipe.pas',0,1,27,9,29,0,0,,
+File_13=TSourceModule,'C:\Program Files (x86)\Embarcadero\Studio\18.0\source\fmx\FMX.WebBrowser.Android.pas',0,1,555,3,580,0,0,,
+File_14=TSourceModule,'C:\Program Files (x86)\Embarcadero\Studio\18.0\source\fmx\FMX.WebBrowser.Delegate.iOS.pas',0,1,64,35,90,0,0,,
 
 [Modules]
-Module0=D:\GitHub\test\SplashScreen\MainFormU.pas
+Module0=D:\GitHub\test\BluetoothLE\uBluetoothLEMain.pas
 Module1=default.htm
 Count=2
 EditWindowCount=1
 
-[D:\GitHub\test\SplashScreen\MainFormU.pas]
+[D:\GitHub\test\BluetoothLE\uBluetoothLEMain.pas]
 ModuleType=TSourceModule
 
 [default.htm]
@@ -29,7 +29,7 @@ ModuleType=TURLModule
 
 [EditWindow0]
 ViewCount=2
-CurrentEditView=D:\GitHub\test\SplashScreen\MainFormU.pas
+CurrentEditView=D:\GitHub\test\BluetoothLE\uBluetoothLEMain.pas
 View0=0
 View1=1
 PercentageSizes=1
@@ -67,14 +67,14 @@ WelcomePageURL=bds:/default.htm
 
 [View1]
 CustomEditViewType=TEditView
-Module=D:\GitHub\test\SplashScreen\MainFormU.pas
-CursorX=65
-CursorY=18
-TopLine=1
+Module=D:\GitHub\test\BluetoothLE\uBluetoothLEMain.pas
+CursorX=61
+CursorY=32
+TopLine=21
 LeftCol=1
 Elisions=
 Bookmarks=
-EditViewName=D:\GitHub\test\SplashScreen\MainFormU.pas
+EditViewName=Borland.FormDesignerView
 
 [UndockedDesigner]
 Count=0
@@ -127,8 +127,8 @@ Create=1
 Visible=1
 Docked=0
 State=2
-Left=-979
-Top=-183
+Left=0
+Top=0
 Width=8932
 Height=8519
 MaxLeft=-5
@@ -150,11 +150,11 @@ State=0
 Left=0
 Top=0
 Width=2000
-Height=7154
+Height=8788
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2000
-ClientHeight=7154
+ClientHeight=8788
 TBDockHeight=5904
 LRDockWidth=2349
 Dockable=1
@@ -188,11 +188,11 @@ State=0
 Left=0
 Top=0
 Width=2000
-Height=8788
+Height=7154
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2000
-ClientHeight=8788
+ClientHeight=7154
 TBDockHeight=7154
 LRDockWidth=2000
 Dockable=1
@@ -255,6 +255,11 @@ LRDockWidth=5807
 Dockable=1
 StayOnTop=0
 SplitPos=151
+
+[PropInspDesignerSelection]
+ArrangeBy=Name
+SelectedItem=Name,OnCharacteristicRead
+ExpandedItems=Anchors=0,Corners=0,Fill=1,LiveBindings=0,"LiveBindings Designer=0",Margins=0,Padding=0,Position=0,RotationCenter=0,Scale=0,Sides=0,Size=0,Stroke=0,Touch=0,Border=0,BorderIcons=0,FormFactor=0,StyledSettings=0,TextSettings=0,TouchTargetExpansion=0,TextSettings.Font=0,BitmapMargins=0,Fill.Bitmap=0,Fill.Resource=0
 
 [frmDesignPreview]
 PercentageSizes=1
@@ -524,8 +529,8 @@ Create=1
 Visible=0
 Docked=1
 State=0
-Left=-32704
-Top=-32765
+Left=-17116
+Top=188
 Width=1849
 Height=3144
 MaxLeft=-1
@@ -730,8 +735,8 @@ LRDockWidth=2000
 Dockable=1
 StayOnTop=0
 TabPosition=1
-ActiveTabID=ProjectManager
-TabDockClients=ProjectManager,ToolForm,ModelViewTool,DataExplorerContainer,frmDesignPreview,TemplateView,TFileExplorerForm
+ActiveTabID=ToolForm
+TabDockClients=ProjectManager,ToolForm,ModelViewTool,DataExplorerContainer,frmDesignPreview,TFileExplorerForm,TemplateView
 
 [DockSite3]
 HostDockSite=DockLeftPanel

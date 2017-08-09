@@ -1,0 +1,27 @@
+object Form22: TForm22
+  Left = 0
+  Top = 0
+  Caption = 'Form22'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 3
+  object Button1: TButton
+    Position.X = 88.000000000000000000
+    Position.Y = 12.000000000000000000
+    Size.Width = 115.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Button1'
+    OnClick = Button1Click
+  end
+  object BluetoothLE: TBluetoothLE
+    Enabled = False
+    Left = 34
+    Top = 18
+  end
+end

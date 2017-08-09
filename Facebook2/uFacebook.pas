@@ -93,9 +93,6 @@ var
   Msg, sname: string;
 begin
   try
-//    Msg := 'URI ' + Sender.GetFullRequestURL + ' Excution time: ' +
-//      IntToStr(Sender.ExecutionPerformance.TotalExecutionTime) + 'ms' + #13#10 + #13#10;
-
     if assigned(RESTResponse.JSONValue) then
       Msg := 'json : ' + Msg + TJson.Format(RESTResponse.JSONValue)
     else

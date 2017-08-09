@@ -18,8 +18,8 @@ File_14=TSourceModule,'D:\00.dev\App6.0_del_camera\DModule.pas',0,1,1967,51,1987
 [Modules]
 Module0=D:\GitHub\test\Facebook\uFacebookMain.pas
 Module1=D:\GitHub\test\Facebook\uSistema.pas
-Module2=D:\GitHub\test\Facebook\uShowResult.pas
-Module3=D:\GitHub\test\Facebook\uLogin.pas
+Module2=D:\GitHub\test\Facebook\uLogin.pas
+Module3=D:\GitHub\test\Facebook\uShowResult.pas
 Module4=default.htm
 Count=5
 EditWindowCount=1
@@ -30,10 +30,10 @@ ModuleType=TSourceModule
 [D:\GitHub\test\Facebook\uSistema.pas]
 ModuleType=TSourceModule
 
-[D:\GitHub\test\Facebook\uShowResult.pas]
+[D:\GitHub\test\Facebook\uLogin.pas]
 ModuleType=TSourceModule
 
-[D:\GitHub\test\Facebook\uLogin.pas]
+[D:\GitHub\test\Facebook\uShowResult.pas]
 ModuleType=TSourceModule
 
 [default.htm]
@@ -83,9 +83,9 @@ WelcomePageURL=bds:/default.htm
 [View1]
 CustomEditViewType=TEditView
 Module=D:\GitHub\test\Facebook\uFacebookMain.pas
-CursorX=53
-CursorY=52
-TopLine=33
+CursorX=20
+CursorY=114
+TopLine=100
 LeftCol=1
 Elisions=
 Bookmarks=
@@ -94,9 +94,9 @@ EditViewName=D:\GitHub\test\Facebook\uFacebookMain.pas
 [View2]
 CustomEditViewType=TEditView
 Module=D:\GitHub\test\Facebook\uSistema.pas
-CursorX=45
-CursorY=47
-TopLine=38
+CursorX=24
+CursorY=58
+TopLine=56
 LeftCol=1
 Elisions=
 Bookmarks=
@@ -105,20 +105,20 @@ EditViewName=D:\GitHub\test\Facebook\uSistema.pas
 [View3]
 CustomEditViewType=TEditView
 Module=D:\GitHub\test\Facebook\uShowResult.pas
-CursorX=9
-CursorY=31
-TopLine=2
+CursorX=45
+CursorY=17
+TopLine=1
 LeftCol=1
 Elisions=
 Bookmarks=
-EditViewName=D:\GitHub\test\Facebook\uShowResult.pas
+EditViewName=Borland.FormDesignerView
 
 [View4]
 CustomEditViewType=TEditView
 Module=D:\GitHub\test\Facebook\uLogin.pas
-CursorX=33
-CursorY=44
-TopLine=42
+CursorX=46
+CursorY=42
+TopLine=19
 LeftCol=1
 Elisions=
 Bookmarks=
@@ -175,8 +175,8 @@ Create=1
 Visible=1
 Docked=0
 State=2
-Left=146
-Top=269
+Left=-1688
+Top=-192
 Width=8932
 Height=8519
 MaxLeft=-5
@@ -303,6 +303,11 @@ LRDockWidth=5807
 Dockable=1
 StayOnTop=0
 SplitPos=151
+
+[PropInspDesignerSelection]
+ArrangeBy=Name
+SelectedItem=Name,Action
+ExpandedItems=Border=0,BorderIcons=0,Fill=0,FormFactor=0,"LiveBindings Designer=0",Padding=0,Touch=0,Anchors=0,LiveBindings=0,Margins=0,Position=0,Size=0
 
 [frmDesignPreview]
 PercentageSizes=1

@@ -127,8 +127,8 @@ Create=1
 Visible=1
 Docked=0
 State=2
-Left=146
-Top=269
+Left=-979
+Top=-183
 Width=8932
 Height=8519
 MaxLeft=-5
@@ -188,11 +188,11 @@ State=0
 Left=0
 Top=0
 Width=2000
-Height=7154
+Height=8788
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2000
-ClientHeight=7154
+ClientHeight=8788
 TBDockHeight=7154
 LRDockWidth=2000
 Dockable=1
@@ -258,8 +258,8 @@ SplitPos=151
 
 [PropInspDesignerSelection]
 ArrangeBy=Name
-SelectedItem=Name,
-ExpandedItems=Anchors=0,BitmapMargins=0,LiveBindings=0,"LiveBindings Designer=0",Margins=0,Padding=0,Position=0,RotationCenter=0,Scale=0,Size=0
+SelectedItem=Caption,Action
+ExpandedItems="LiveBindings Designer=0",Anchors=0,LiveBindings=0,Margins=0,Border=0,BorderIcons=0,Fill=0,FormFactor=0,Padding=0,Touch=0,BindSource=0,Position=0,RotationCenter=0,Scale=0,Size=0,StyledSettings=0,TextSettings=0,TouchTargetExpansion=0,Client=0,Response=0,Corners=0,Sides=0,Stroke=0,ActiveTab=0
 
 [frmDesignPreview]
 PercentageSizes=1
@@ -529,8 +529,8 @@ Create=1
 Visible=0
 Docked=1
 State=0
-Left=-28
-Top=-124
+Left=-32704
+Top=-32765
 Width=1849
 Height=3144
 MaxLeft=-1
@@ -735,8 +735,8 @@ LRDockWidth=2000
 Dockable=1
 StayOnTop=0
 TabPosition=1
-ActiveTabID=ToolForm
-TabDockClients=ProjectManager,ToolForm,ModelViewTool,DataExplorerContainer,frmDesignPreview,TemplateView,TFileExplorerForm
+ActiveTabID=ProjectManager
+TabDockClients=ProjectManager,ToolForm,ModelViewTool,DataExplorerContainer,frmDesignPreview,TFileExplorerForm,TemplateView
 
 [DockSite3]
 HostDockSite=DockLeftPanel
