@@ -7756,8 +7756,8 @@ object FormS3StoreString: TFormS3StoreString
     TableEndpoint = 'sdb.amazonaws.com'
     QueueEndpoint = 'queue.amazonaws.com'
     StorageEndpoint = 's3.amazonaws.com'
-    Left = 340
-    Top = 158
+    Left = 310
+    Top = 154
   end
   object NetHTTPClient1: TNetHTTPClient
     Asynchronous = False
@@ -7776,8 +7776,8 @@ object FormS3StoreString: TFormS3StoreString
     AllowCookies = True
     HandleRedirects = True
     UserAgent = 'Embarcadero URI Client/1.0'
-    Left = 378
-    Top = 106
+    Left = 340
+    Top = 64
   end
   object FDConnection1: TFDConnection
     Params.Strings = (

@@ -88,13 +88,14 @@ begin
   try
     oStream := TMemoryStream.Create;
 
+    Image1.Bitmap.LoadFromFile('c:\test.jpg');
     image1.Bitmap.SaveToStream(strstr);
 
-    strstr.LoadFromFile('c:\test1.jpg');
+//    strstr.LoadFromFile('c:\test.jpg');
 
 //    oStream.Write(s, oStream.Size);
 
-    if s3.UploadObject(BUCKET_NAME, 'test4.jpg', strstr.bytes, false, nil, nil, TAmazonACLType.amzbaPublicRead, nil) then
+    if s3.UploadObject(BUCKET_NAME, 'testss.jpg', strstr.bytes, false, nil, nil, TAmazonACLType.amzbaPublicRead, nil) then
       ShowMessage('Uploaded OK')
     else
       ShowMessage('Upload ERROR');

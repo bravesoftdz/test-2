@@ -18,6 +18,7 @@ type
     Rectangle1: TRectangle;
     Button2: TButton;
     Image1: TImage;
+    Rectangle2: TRectangle;
     procedure Button1Click(Sender: TObject);
     procedure RoundRect1Paint(Sender: TObject; Canvas: TCanvas;
       const ARect: TRectF);
@@ -42,8 +43,7 @@ begin
   RoundRect1.Fill.Bitmap.Bitmap := Image1.Bitmap;
   Pie1.Fill.Bitmap.Bitmap := Image1.Bitmap;
 
-
-
+  rectangle2.Fill.Bitmap.bitmap := Image1.Bitmap;
 end;
 
 procedure TForm18.Button2Click(Sender: TObject);

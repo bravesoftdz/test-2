@@ -1,0 +1,90 @@
+object Form28: TForm28
+  Left = 0
+  Top = 0
+  Caption = 'Form28'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  OnShow = FormShow
+  DesignerMasterStyle = 3
+  object Rectangle1: TRectangle
+    Align = Top
+    Fill.Color = xFFFF7500
+    Size.Width = 640.000000000000000000
+    Size.Height = 45.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = xFFFF7500
+    object Layout1: TLayout
+      Align = Left
+      Size.Width = 45.000000000000000000
+      Size.Height = 45.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object Image1: TImage
+        MultiResBitmap.Height = 72
+        MultiResBitmap.Width = 72
+        MultiResBitmap = <
+          item
+            Width = 72
+            Height = 72
+            PNG = {
+              89504E470D0A1A0A0000000D494844520000004800000048080600000055EDB3
+              47000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              006449444154785EEDD82112C030084541D2FBDFB98DC026BF93A9EAEC1AD0CF
+              410100000000BC367A6EDD53AFBF32A65E97AE9E2C0814081408140804000027
+              BC3B02A746205020502050201000009CF0EE089C1A8140814081408140000000
+              00001FA97A0033A10C22999313DE0000000049454E44AE426082}
+            FileName = 'D:\GitHub\CProject\02.CookPlay\Image\icMenu@3x.png'
+          end>
+        Align = Center
+        MarginWrapMode = Fit
+        Size.Width = 24.000000000000000000
+        Size.Height = 24.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+  end
+  object Button1: TButton
+    Position.X = 36.000000000000000000
+    Position.Y = 146.000000000000000000
+    TabOrder = 1
+    Text = 'Button1'
+    OnClick = Button1Click
+  end
+  object ColorBox1: TColorBox
+    Color = claRed
+    Position.X = 44.000000000000000000
+    Position.Y = 210.000000000000000000
+    TabOrder = 2
+  end
+  object Button2: TButton
+    Position.X = 32.000000000000000000
+    Position.Y = 306.000000000000000000
+    TabOrder = 4
+    Text = 'Button2'
+    OnClick = Button2Click
+  end
+  object ColorPanel1: TColorPanel
+    Align = Center
+    Color = claRed
+    ColorBox = ColorBox1
+    Size.Width = 282.000000000000000000
+    Size.Height = 274.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    OnChange = ColorPanel1Change
+  end
+  object Label1: TLabel
+    AutoSize = True
+    Position.X = 6.000000000000000000
+    Position.Y = 114.000000000000000000
+    Size.Width = 82.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Label1'
+  end
+end

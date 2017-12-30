@@ -1,0 +1,6 @@
+<resources>
+<style name="AppTheme" parent="@android:style/Theme.NoTitleBar">
+<item name="android:colorPrimary">#FFFF7500</item>
+<item name="android:colorPrimaryDark">#FFFF7500</item>
+</style>
+</resources>

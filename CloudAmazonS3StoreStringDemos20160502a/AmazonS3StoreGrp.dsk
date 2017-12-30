@@ -1,35 +1,35 @@
 ﻿[Closed Files]
-File_0=TSourceModule,'c:\program files (x86)\embarcadero\studio\18.0\source\rtl\common\System.Classes.pas',0,1,8533,1,8559,0,0,,
-File_1=TSourceModule,'c:\program files (x86)\embarcadero\studio\18.0\source\fmx\FMX.Graphics.pas',0,1,5447,46,5467,0,0,,
-File_2=TSourceModule,'c:\program files (x86)\embarcadero\studio\18.0\SOURCE\RTL\SYS\System.Types.pas',0,1,385,1,382,0,0,,
-File_3=TSourceModule,'D:\00.dev\04.CookPlay\02.CookPlay APP\03.CookApp_2017.04.12\CookApp\MUnit.pas',0,1,286,3,312,0,0,,{1
-File_4=TSourceModule,'D:\00.dev\04.CookPlay\02.CookPlay APP\03.CookApp_2017.04.12\CookApp\FrScale.pas',0,1,1,28,158,0,0,,{1
-File_5=TSourceModule,'D:\00.dev\04.CookPlay\02.CookPlay APP\03.CookApp_2017.04.12\CookApp\uGlobal.pas',0,1,1,14,11,0,0,,
-File_6=TSourceModule,'D:\00.dev\04.CookPlay\02.CookPlay APP\03.CookApp_2017.04.12\CookApp\FrExcute.pas',0,1,301,1,1,0,0,,
-File_7=TSourceModule,'D:\00.dev\04.CookPlay\02.CookPlay APP\03.CookApp_2017.04.12\CookApp\uModalForm.pas',0,1,1,1,1,0,0,,
-File_8=TSourceModule,'D:\00.dev\04.CookPlay\02.CookPlay APP\03.CookApp_2017.04.12\CookApp\uClientDModule.pas',0,1,310,1,1,0,0,{{332,0}
-File_9=TSourceModule,'D:\00.dev\04.CookPlay\02.CookPlay APP\03.CookApp_2017.04.12\CookApp\ListTouchMng.pas',0,1,88,34,24,0,0,,
-File_10=TSourceModule,'D:\00.dev\04.CookPlay\02.CookPlay APP\00.Library\uCPScale.pas',0,1,1,40,64,0,0,,
-File_11=TSourceModule,'D:\00.dev\04.CookPlay\02.CookPlay APP\03.CookApp_2017.04.12\CookApp\uRScale.pas',0,1,1,38,326,0,0,,
-File_12=TSourceModule,'c:\program files (x86)\embarcadero\studio\18.0\SOURCE\RTL\SYS\System.pas',0,1,37340,1,37359,0,0,,
-File_13=TSourceModule,'c:\program files (x86)\embarcadero\studio\18.0\source\fmx\FMX.Types.pas',0,1,5028,1,5049,0,0,{{4164,0}
-File_14=TSourceModule,'c:\program files (x86)\embarcadero\studio\18.0\source\rtl\net\System.Bluetooth.Components.pas',0,1,1060,32,1077,0,0,,
+File_0=TSourceModule,'D:\GitHub\test\S3TestDelphi\Unit1.pas',0,1,22,1,37,0,0,,
+File_1=TSourceModule,'c:\program files (x86)\embarcadero\studio\18.0\source\data\cloud\Data.Cloud.AmazonAPI.pas',0,1,1423,3,1321,0,0,,
+File_2=TSourceModule,'c:\program files (x86)\embarcadero\studio\18.0\SOURCE\RTL\SYS\System.pas',0,1,34658,1,34684,0,0,,
+File_3=TSourceModule,'D:\GitHub\test\ListBox\uListBoxMain.pas',0,1,47,38,61,0,0,,{1
+File_4=TSourceModule,'D:\GitHub\test\ListBox\uListbox.pas',0,1,158,1,177,0,0,,{1
+File_5=TSourceModule,'D:\GitHub\test\ListBox\us3storage.pas',0,1,1,39,14,0,0,,
+File_6=TSourceModule,'c:\program files (x86)\embarcadero\studio\18.0\source\fmx\FMX.Types.pas',0,1,5152,1,5178,0,0,{{4164,0}
+File_7=TSourceModule,'c:\program files (x86)\embarcadero\studio\18.0\source\fmx\FMX.Controls.pas',0,1,2454,29,2454,0,0,{{6849,0}
+File_8=TSourceModule,'c:\program files (x86)\embarcadero\studio\18.0\source\fmx\FMX.Layouts.pas',0,1,1994,1,2020,0,0,{{1341,4}
+File_9=TSourceModule,'c:\program files (x86)\embarcadero\studio\18.0\source\fmx\FMX.ListBox.pas',0,1,2639,1,2676,0,0,,
+File_10=TSourceModule,'c:\program files (x86)\embarcadero\studio\18.0\source\fmx\FMX.StdCtrls.pas',0,1,499,1,520,0,0,,
+File_11=TSourceModule,'D:\GitHub\test\ListBox\__history\uListBoxMain.pas.~747~',0,1,121,1,1,0,0,,
+File_12=TSourceModule,'D:\GitHub\test\ListBox\__history\uListBoxMain.fmx.~140~',0,1,1,1,1,0,0,,
+File_13=TSourceModule,'D:\GitHub\test\ListBox\__history\uListbox.pas.~301~',0,1,43,1,1,0,0,,
+File_14=TSourceModule,'c:\program files (x86)\embarcadero\studio\18.0\source\rtl\common\System.Classes.pas',0,1,2125,1,2119,0,0,,
 
 [Modules]
-Module0=D:\GitHub\test\RoundImage\uMain.pas
-Module1=D:\GitHub\test\RoundImage\RoundImage.dproj
+Module0=D:\GitHub\test\CloudAmazonS3StoreStringDemos20160502a\AmazonS3StoreStringDelphi\uFormS3StoreString.pas
+Module1=default.htm
 Count=2
 EditWindowCount=1
 
-[D:\GitHub\test\RoundImage\uMain.pas]
+[D:\GitHub\test\CloudAmazonS3StoreStringDemos20160502a\AmazonS3StoreStringDelphi\uFormS3StoreString.pas]
 ModuleType=TSourceModule
 
-[D:\GitHub\test\RoundImage\RoundImage.dproj]
-ModuleType=TBaseProject
+[default.htm]
+ModuleType=TURLModule
 
 [EditWindow0]
 ViewCount=2
-CurrentEditView=D:\GitHub\test\RoundImage\uMain.pas
+CurrentEditView=D:\GitHub\test\CloudAmazonS3StoreStringDemos20160502a\AmazonS3StoreStringDelphi\uFormS3StoreString.pas
 View0=0
 View1=1
 PercentageSizes=1
@@ -50,38 +50,31 @@ BorlandEditorCodeExplorer=BorlandEditorCodeExplorer@EditWindow0
 TopPanelSize=0
 LeftPanelSize=1906
 LeftPanelClients=DockSite3
-LeftPanelData=000008000102000000003D0D000000000000029D2200000000000001000000003D0D000009000000446F636B5369746533FFFFFFFF
+LeftPanelData=000008000102000000003D0D00000000000002771C00000000000001000000003D0D000009000000446F636B5369746533FFFFFFFF
 RightPanelSize=2000
 RightPanelClients=DockSite2
-RightPanelData=00000800010100000000781300000000000001D00700000000000001000000009D22000009000000446F636B5369746532FFFFFFFF
-BottomPanelSize=0
+RightPanelData=00000800010100000000031000000000000001D0070000000000000100000000771C000009000000446F636B5369746532FFFFFFFF
+BottomPanelSize=1519
 BottomPanelClients=DockSite1,MessageView
-BottomPanelData=0000080001020200000009000000446F636B53697465310F0000004D65737361676556696577466F726D1534000000000000022606000000000000FFFFFFFF
+BottomPanelData=0000080001020100000009000000446F636B5369746531724500000000000002EF050000000000000100000000724500000F0000004D65737361676556696577466F726DFFFFFFFF
 BottomMiddlePanelSize=0
 BottomMiddlePanelClients=DockSite0,GraphDrawingModel
 BottomMiddelPanelData=0000080001020200000009000000446F636B536974653010000000477261706844726177696E67566965779F1D00000000000002F206000000000000FFFFFFFF
 
 [View0]
-CustomEditViewType=TEditView
-Module=D:\GitHub\test\RoundImage\uMain.pas
-CursorX=2
-CursorY=56
-TopLine=40
-LeftCol=1
-Elisions=
-Bookmarks=
-EditViewName=Borland.FormDesignerView
+CustomEditViewType=TWelcomePageView
+WelcomePageURL=bds:/default.htm
 
 [View1]
 CustomEditViewType=TEditView
-Module=D:\GitHub\test\RoundImage\RoundImage.dpr
-CursorX=1
-CursorY=10
-TopLine=1
+Module=D:\GitHub\test\CloudAmazonS3StoreStringDemos20160502a\AmazonS3StoreStringDelphi\uFormS3StoreString.pas
+CursorX=54
+CursorY=96
+TopLine=86
 LeftCol=1
 Elisions=
-Bookmarks=
-EditViewName=D:\GitHub\test\RoundImage\RoundImage.dpr
+Bookmarks={1,88,6}
+EditViewName=Borland.FormDesignerView
 
 [UndockedDesigner]
 Count=0
@@ -134,8 +127,8 @@ Create=1
 Visible=1
 Docked=0
 State=2
-Left=146
-Top=269
+Left=15031
+Top=0
 Width=8932
 Height=8519
 MaxLeft=-5
@@ -157,11 +150,11 @@ State=0
 Left=0
 Top=0
 Width=2000
-Height=8788
+Height=7154
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2000
-ClientHeight=8788
+ClientHeight=7154
 TBDockHeight=5904
 LRDockWidth=2349
 Dockable=1
@@ -170,18 +163,18 @@ StayOnTop=0
 [MessageView]
 PercentageSizes=1
 Create=1
-Visible=0
+Visible=1
 Docked=1
 State=0
 Left=0
-Top=0
-Width=2771
-Height=1423
+Top=18
+Width=10000
+Height=1404
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=2771
-ClientHeight=1423
-TBDockHeight=1423
+ClientWidth=10000
+ClientHeight=1404
+TBDockHeight=1404
 LRDockWidth=2771
 Dockable=1
 StayOnTop=0
@@ -252,11 +245,11 @@ State=0
 Left=0
 Top=0
 Width=1906
-Height=8788
+Height=7154
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=1906
-ClientHeight=8788
+ClientHeight=7154
 TBDockHeight=8788
 LRDockWidth=5807
 Dockable=1
@@ -265,8 +258,8 @@ SplitPos=151
 
 [PropInspDesignerSelection]
 ArrangeBy=Name
-SelectedItem=Action,
-ExpandedItems=Border=0,BorderIcons=0,Fill=0,FormFactor=0,"LiveBindings Designer=0",Padding=0,Touch=0
+SelectedItem=Action,OnCreate
+ExpandedItems=Border=0,BorderIcons=0,Fill=0,FormFactor=0,"LiveBindings Designer=0",Padding=0,Touch=0,Anchors=0,Constraints=0,Font=0,GlassFrame=0,HorzScrollBar=0,LiveBindings=0,Margins=0,Position=0,RotationCenter=0,Scale=0,Size=0,Stroke=0,StyledSettings=0,TextSettings=0
 
 [frmDesignPreview]
 PercentageSizes=1
@@ -277,11 +270,11 @@ State=0
 Left=0
 Top=0
 Width=2000
-Height=7154
+Height=8788
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2000
-ClientHeight=7154
+ClientHeight=8788
 TBDockHeight=5962
 LRDockWidth=2510
 Dockable=1
@@ -501,11 +494,11 @@ State=0
 Left=0
 Top=0
 Width=2000
-Height=7154
+Height=8788
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2000
-ClientHeight=7154
+ClientHeight=8788
 TBDockHeight=4885
 LRDockWidth=7151
 Dockable=1
@@ -536,8 +529,8 @@ Create=1
 Visible=0
 Docked=1
 State=0
-Left=-36
-Top=-137
+Left=-7684
+Top=-85
 Width=1849
 Height=3144
 MaxLeft=-1
@@ -622,11 +615,11 @@ State=0
 Left=0
 Top=0
 Width=1906
-Height=7154
+Height=8788
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=1906
-ClientHeight=7154
+ClientHeight=8788
 TBDockHeight=3683
 LRDockWidth=1896
 Dockable=1
@@ -641,11 +634,11 @@ State=0
 Left=0
 Top=0
 Width=2000
-Height=7154
+Height=8788
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2000
-ClientHeight=7154
+ClientHeight=8788
 TBDockHeight=4885
 LRDockWidth=5307
 Dockable=1
@@ -732,17 +725,17 @@ State=0
 Left=0
 Top=18
 Width=2000
-Height=9029
+Height=7394
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2000
-ClientHeight=9029
+ClientHeight=7394
 TBDockHeight=9010
 LRDockWidth=2000
 Dockable=1
 StayOnTop=0
 TabPosition=1
-ActiveTabID=ProjectManager
+ActiveTabID=ToolForm
 TabDockClients=ProjectManager,ToolForm,ModelViewTool,DataExplorerContainer,frmDesignPreview,TFileExplorerForm,TemplateView
 
 [DockSite3]
@@ -756,16 +749,19 @@ State=0
 Left=0
 Top=18
 Width=1906
-Height=9029
+Height=7394
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=1906
-ClientHeight=9029
-TBDockHeight=9029
+ClientHeight=7394
+TBDockHeight=7394
 LRDockWidth=1906
 Dockable=1
 StayOnTop=0
 TabPosition=1
 ActiveTabID=PropertyInspector
 TabDockClients=PropertyInspector,StructureView,ClassBrowserTool
+
+[ActiveProject]
+ActiveProject=1
 

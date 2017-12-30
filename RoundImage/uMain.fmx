@@ -9,8 +9,8 @@ object Form18: TForm18
   FormFactor.Devices = [Desktop]
   DesignerMasterStyle = 0
   object Button1: TButton
-    Position.X = 474.000000000000000000
-    Position.Y = 78.000000000000000000
+    Position.X = 22.000000000000000000
+    Position.Y = 6.000000000000000000
     TabOrder = 1
     Text = 'Button1'
     OnClick = Button1Click
@@ -18,13 +18,14 @@ object Form18: TForm18
   object Circle1: TCircle
     Fill.Bitmap.WrapMode = TileOriginal
     Fill.Kind = Bitmap
-    Position.X = 16.000000000000000000
-    Position.Y = 142.000000000000000000
+    Position.X = 30.000000000000000000
+    Position.Y = 106.000000000000000000
     Size.Width = 227.000000000000000000
     Size.Height = 199.000000000000000000
     Size.PlatformDefault = False
   end
   object RoundRect1: TRoundRect
+    Corners = [TopLeft, TopRight]
     Fill.Bitmap.WrapMode = TileOriginal
     Fill.Kind = Bitmap
     Position.X = 284.000000000000000000
@@ -66,8 +67,8 @@ object Form18: TForm18
     Size.PlatformDefault = False
   end
   object Button2: TButton
-    Position.X = 542.000000000000000000
-    Position.Y = 130.000000000000000000
+    Position.X = 22.000000000000000000
+    Position.Y = 64.000000000000000000
     TabOrder = 10
     Text = 'Button2'
     OnClick = Button2Click
@@ -6324,5 +6325,14 @@ object Form18: TForm18
     Size.Height = 483.000000000000000000
     Size.PlatformDefault = False
     WrapMode = Center
+  end
+  object Rectangle2: TRectangle
+    Fill.Bitmap.WrapMode = TileStretch
+    Fill.Kind = Bitmap
+    Position.X = 294.000000000000000000
+    Position.Y = 26.000000000000000000
+    Size.Width = 99.000000000000000000
+    Size.Height = 101.000000000000000000
+    Size.PlatformDefault = False
   end
 end
